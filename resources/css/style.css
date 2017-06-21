@@ -21,12 +21,14 @@ h4 {
   flex-wrap: wrap;
 }
 header {
+  position: absolute; top: 0;
   width: 100%;
   position: fixed;
   z-index: 1;
-  height: 69px;
+  height: 75px;
   background-color: black;
   border-bottom: 1px solid seashell;
+  border-top: 10px solid black;
   align-items: center;
   color: seashell;
 }
@@ -43,17 +45,17 @@ body {
 
 }
 nav {
+  padding: 20px 20px;
   text-align: right;
   flex-grow: 1;
 }
 
 nav span {
   display: inline-block;
-  padding: 20px 10px;
-  /*padding-top: 20px;
-  padding-right: 10px;
+  padding-top: 20px;
+  padding-right: 5px;
   padding-bottom: 20px;
-  padding-left: 10px;*/
+  padding-left: 5px;
   text-decoration: underline;
 }
 .main {
@@ -82,6 +84,7 @@ div {
   height: 200px;
   margin: 10px;
   display: block;
+  border-radius: 25px;
 }
 #locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
@@ -99,6 +102,7 @@ div {
 
 }
 .location {
+  border-radius: 25px;
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
@@ -107,4 +111,5 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  mar
 }
